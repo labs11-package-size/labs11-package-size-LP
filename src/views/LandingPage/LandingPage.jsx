@@ -51,7 +51,7 @@ class LandingPage extends React.Component {
                 </h2>
                 <br />
                 <Button
-                  color="#72BDA2"
+                  color="arka"
                   size="lg"
                   href="https://www.youtube.com/watch?v=dQw4w9WgXcQ"
                   target="_blank"
