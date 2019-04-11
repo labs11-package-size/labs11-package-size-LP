@@ -8,6 +8,10 @@ import withStyles from "@material-ui/core/styles/withStyles";
 import List from "@material-ui/core/List";
 import ListItem from "@material-ui/core/ListItem";
 import Tooltip from "@material-ui/core/Tooltip";
+import Typography from '@material-ui/core/Typography';
+import IconButton from '@material-ui/core/IconButton';
+import MenuIcon from '@material-ui/icons/Menu';
+import AccountCircle from '@material-ui/icons/AccountCircle';
 
 // @material-ui/icons
 import { Apps, CloudDownload } from "@material-ui/icons";
@@ -18,34 +22,52 @@ import Button from "components/CustomButtons/Button.jsx";
 
 import headerLinksStyle from "assets/jss/material-kit-react/components/headerLinksStyle.jsx";
 
+
+
 function HeaderLinks({ ...props }) {
   const { classes } = props;
+
   return (
     <List className={classes.list}>
       <ListItem className={classes.listItem}>
         <CustomDropdown
           noLiPadding
-          buttonText="Components"
+          buttonText="Sign In"
           buttonProps={{
             className: classes.navLink,
             color: "transparent"
           }}
           buttonIcon={Apps}
           dropdownList={[
-            <Link to="/" className={classes.dropdownLink}>
-              All components
-            </Link>,
-            <a
-              href="https://creativetimofficial.github.io/material-kit-react/#/documentation"
-              target="_blank"
-              className={classes.dropdownLink}
-            >
-              Documentation
-            </a>
+            // <Link to="/" className={classes.dropdownLink}>
+            //   All components
+            // </Link>,
+            <div>
+              <a
+                href="https://scannarweb.herokuapp.com/login"
+                target="_blank"
+                className={classes.dropdownLink}
+              >
+                Sign In
+              </a>
+            </div>
+            // <div>
+            //   <a
+            //     href="https://scannarweb.herokuapp.com/login"
+            //     target="_blank"
+            //     className={classes.dropdownLink}
+            //   >
+            //     Sign Up
+            //   </a>
+            // </div>
           ]}
         />
       </ListItem>
-      <ListItem className={classes.listItem}>
+
+
+     
+
+      {/* <ListItem className={classes.listItem}>
         <Button
           href="https://www.creative-tim.com/product/material-kit-react"
           color="transparent"
@@ -54,8 +76,8 @@ function HeaderLinks({ ...props }) {
         >
           <CloudDownload className={classes.icons} /> Download
         </Button>
-      </ListItem>
-      <ListItem className={classes.listItem}>
+      </ListItem> */}
+      {/* <ListItem className={classes.listItem}>
         <Tooltip
           id="instagram-twitter"
           title="Follow us on twitter"
@@ -71,8 +93,8 @@ function HeaderLinks({ ...props }) {
             <i className={classes.socialIcons + " fab fa-twitter"} />
           </Button>
         </Tooltip>
-      </ListItem>
-      <ListItem className={classes.listItem}>
+      </ListItem> */}
+      {/* <ListItem className={classes.listItem}>
         <Tooltip
           id="instagram-facebook"
           title="Follow us on facebook"
@@ -105,7 +127,7 @@ function HeaderLinks({ ...props }) {
             <i className={classes.socialIcons + " fab fa-instagram"} />
           </Button>
         </Tooltip>
-      </ListItem>
+      </ListItem> */}
     </List>
   );
 }

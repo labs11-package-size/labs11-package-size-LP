@@ -3,9 +3,9 @@ import React from "react";
 import withStyles from "@material-ui/core/styles/withStyles";
 
 // @material-ui/icons
-import Chat from "@material-ui/icons/Chat";
-import VerifiedUser from "@material-ui/icons/VerifiedUser";
-import Fingerprint from "@material-ui/icons/Fingerprint";
+import Scanner from "@material-ui/icons/Scanner";
+import AddBox from "@material-ui/icons/AddBox";
+import LocalShipping from "@material-ui/icons/LocalShipping";
 // core components
 import GridContainer from "components/Grid/GridContainer.jsx";
 import GridItem from "components/Grid/GridItem.jsx";
@@ -20,7 +20,7 @@ class ProductSection extends React.Component {
       <div className={classes.section}>
         <GridContainer justify="center">
           <GridItem xs={12} sm={12} md={8}>
-            <h2 className={classes.title}>Let's talk product</h2>
+            <h2 className={classes.title}>What is ScannAR?</h2>
             <h5 className={classes.description}>
             ScannAR is a web and mobile app that uses augmented reality to track and right-size your shipping, helping you get more shipping done for less. ScannAR users can catalog the products and packages they ship and track how long different packages take from drop-off to delivery. ScannAR will even give users recommendations on how to pack boxes for a given product or set of products.
             </h5>
@@ -30,27 +30,27 @@ class ProductSection extends React.Component {
           <GridContainer>
             <GridItem xs={12} sm={12} md={4}>
               <InfoArea
-                title="Free Chat"
-                description="Divide details about your product or agency work into parts. Write a few lines about each one. A paragraph describing a feature will be enough."
-                icon={Chat}
+                title="Scan"
+                description="Using your iPhone, scan any item with the ScannAR app.  The ScannAR app will tell you the object's dimensions. "
+                icon={Scanner}
                 iconColor="info"
                 vertical
               />
             </GridItem>
             <GridItem xs={12} sm={12} md={4}>
               <InfoArea
-                title="Verified Users"
-                description="Divide details about your product or agency work into parts. Write a few lines about each one. A paragraph describing a feature will be enough."
-                icon={VerifiedUser}
+                title="Package"
+                description="Now that you have your product's dimensions, ScannAR can tell you the perfect box size for the item."
+                icon={AddBox}
                 iconColor="success"
                 vertical
               />
             </GridItem>
             <GridItem xs={12} sm={12} md={4}>
               <InfoArea
-                title="Fingerprint"
-                description="Divide details about your product or agency work into parts. Write a few lines about each one. A paragraph describing a feature will be enough."
-                icon={Fingerprint}
+                title="Ship"
+                description="Once you have selected your packaging, you are ready to ship.  ScannAR will track you shipment for you."
+                icon={LocalShipping}
                 iconColor="danger"
                 vertical
               />

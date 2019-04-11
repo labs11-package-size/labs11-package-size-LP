@@ -8,7 +8,7 @@ import withStyles from "@material-ui/core/styles/withStyles";
 
 // core components
 import Header from "components/Header/Header.jsx";
-import Footer from "components/Footer/Footer.jsx";
+// import Footer from "components/Footer/Footer.jsx";
 import GridContainer from "components/Grid/GridContainer.jsx";
 import GridItem from "components/Grid/GridItem.jsx";
 import Button from "components/CustomButtons/Button.jsx";
@@ -46,9 +46,9 @@ class LandingPage extends React.Component {
             <GridContainer>
               <GridItem xs={12} sm={12} md={6}>
                 <h1 className={classes.title}>ScannAR</h1>
-                <h2>
-                ScannAR is a web and mobile app that uses augmented reality to track and right-size your shipping, helping you get more shipping done for less. 
-                </h2>
+                <h3>
+                ScannAR is a web and mobile app that uses augmented reality to scan objects to determine their exact dimensions, helping you get more shipping done for less. 
+                </h3>
                 <br />
                 <Button
                   color="arka"
@@ -71,7 +71,7 @@ class LandingPage extends React.Component {
             <WorkSection /> */}
           </div>
         </div>
-        <Footer />
+        {/* <Footer /> */}
       </div>
     );
   }
