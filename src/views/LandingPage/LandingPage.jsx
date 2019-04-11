@@ -19,8 +19,8 @@ import landingPageStyle from "assets/jss/material-kit-react/views/landingPage.js
 
 // Sections for this page
 import ProductSection from "./Sections/ProductSection.jsx";
-import TeamSection from "./Sections/TeamSection.jsx";
-import WorkSection from "./Sections/WorkSection.jsx";
+// import TeamSection from "./Sections/TeamSection.jsx";
+// import WorkSection from "./Sections/WorkSection.jsx";
 
 const dashboardRoutes = [];
 
@@ -32,7 +32,7 @@ class LandingPage extends React.Component {
         <Header
           color="transparent"
           routes={dashboardRoutes}
-          brand="Material Kit React"
+          // brand="Material Kit React"
           rightLinks={<HeaderLinks />}
           fixed
           changeColorOnScroll={{
@@ -41,20 +41,17 @@ class LandingPage extends React.Component {
           }}
           {...rest}
         />
-        <Parallax filter image={require("assets/img/landing-bg.jpg")}>
+        <Parallax filter image={require("assets/img/package-1081709_1920.jpg")}>
           <div className={classes.container}>
             <GridContainer>
               <GridItem xs={12} sm={12} md={6}>
-                <h1 className={classes.title}>Your Story Starts With Us.</h1>
-                <h4>
-                  Every landing page needs a small description after the big
-                  bold title, that's why we added this text here. Add here all
-                  the information that can make you or your product create the
-                  first impression.
-                </h4>
+                <h1 className={classes.title}>ScannAR</h1>
+                <h2>
+                ScannAR is a web and mobile app that uses augmented reality to track and right-size your shipping, helping you get more shipping done for less. 
+                </h2>
                 <br />
                 <Button
-                  color="danger"
+                  color="#72BDA2"
                   size="lg"
                   href="https://www.youtube.com/watch?v=dQw4w9WgXcQ"
                   target="_blank"
@@ -70,8 +67,8 @@ class LandingPage extends React.Component {
         <div className={classNames(classes.main, classes.mainRaised)}>
           <div className={classes.container}>
             <ProductSection />
-            <TeamSection />
-            <WorkSection />
+            {/* <TeamSection />
+            <WorkSection /> */}
           </div>
         </div>
         <Footer />

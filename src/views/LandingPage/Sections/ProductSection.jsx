@@ -22,11 +22,7 @@ class ProductSection extends React.Component {
           <GridItem xs={12} sm={12} md={8}>
             <h2 className={classes.title}>Let's talk product</h2>
             <h5 className={classes.description}>
-              This is the paragraph where you can write more details about your
-              product. Keep you user engaged by providing meaningful
-              information. Remember that by this time, the user is curious,
-              otherwise he wouldn't scroll to get here. Add a button if you want
-              the user to see more.
+            ScannAR is a web and mobile app that uses augmented reality to track and right-size your shipping, helping you get more shipping done for less. ScannAR users can catalog the products and packages they ship and track how long different packages take from drop-off to delivery. ScannAR will even give users recommendations on how to pack boxes for a given product or set of products.
             </h5>
           </GridItem>
         </GridContainer>
