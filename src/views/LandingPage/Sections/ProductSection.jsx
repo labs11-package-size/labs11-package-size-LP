@@ -31,7 +31,7 @@ class ProductSection extends React.Component {
             <GridItem xs={12} sm={12} md={4}>
               <InfoArea
                 title="Scan"
-                description="Using your iPhone, scan any item with the ScannAR app.  The ScannAR app will tell you the object's dimensions. "
+                description="Using your iPhone, scan any item with the ScannAR app.  The ScannAR app will tell you the object's exact dimensions. "
                 icon={Scanner}
                 iconColor="info"
                 vertical
