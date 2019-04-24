@@ -42,24 +42,26 @@ function HeaderLinks({ ...props }) {
             // <Link to="/" className={classes.dropdownLink}>
             //   All components
             // </Link>,
+            <>
             <div>
               <a
                 href="https://scannarweb.herokuapp.com/login"
-                target="_blank"
+                // target="_blank"
                 className={classes.dropdownLink}
               >
                 Sign In
               </a>
             </div>
-            // <div>
-            //   <a
-            //     href="https://scannarweb.herokuapp.com/login"
-            //     target="_blank"
-            //     className={classes.dropdownLink}
-            //   >
-            //     Sign Up
-            //   </a>
-            // </div>
+            <div>
+              <a
+                href="https://scannarweb.herokuapp.com/login"
+                // target="_blank"
+                className={classes.dropdownLink}
+              >
+                Sign Up
+              </a>
+            </div>
+            </>
           ]}
         />
       </ListItem>

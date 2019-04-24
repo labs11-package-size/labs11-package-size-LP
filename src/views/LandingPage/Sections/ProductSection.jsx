@@ -30,7 +30,7 @@ class ProductSection extends React.Component {
           <GridContainer>
             <GridItem xs={12} sm={12} md={4}>
               <InfoArea
-                title="Scan"
+                title="Scan It"
                 description="Using your iPhone, scan any item with the ScannAR app.  The ScannAR app will tell you the object's exact dimensions. "
                 icon={Scanner}
                 iconColor="info"
@@ -39,7 +39,7 @@ class ProductSection extends React.Component {
             </GridItem>
             <GridItem xs={12} sm={12} md={4}>
               <InfoArea
-                title="Package"
+                title="Pack It"
                 description="Now that you have your product's dimensions, ScannAR can tell you the perfect box size for the item."
                 icon={AddBox}
                 iconColor="success"
@@ -48,7 +48,7 @@ class ProductSection extends React.Component {
             </GridItem>
             <GridItem xs={12} sm={12} md={4}>
               <InfoArea
-                title="Ship"
+                title="Ship It"
                 description="Once you have selected your packaging, you are ready to ship.  ScannAR will track you shipment for you."
                 icon={LocalShipping}
                 iconColor="danger"
