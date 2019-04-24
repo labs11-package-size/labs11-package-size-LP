@@ -88,10 +88,7 @@ class TeamSection extends React.Component {
                 </h4>
                 <CardBody>
                   <p className={classes.description}>
-                    You can write here details about one of your team members.
-                    You can give more details about what they do. Feel free to
-                    add some <a href="#pablo">links</a> for people to be able to
-                    follow them outside the site.
+                  Atque quidem autem qui voluptatem asperiores est et in. Ducimus est asperiores sed. Facere quis ipsam. Doloribus eum officiis laborum id.
                   </p>
                 </CardBody>
                 <CardFooter className={classes.justifyCenter}>
@@ -131,10 +128,7 @@ class TeamSection extends React.Component {
                 </h4>
                 <CardBody>
                   <p className={classes.description}>
-                    You can write here details about one of your team members.
-                    You can give more details about what they do. Feel free to
-                    add some <a href="#pablo">links</a> for people to be able to
-                    follow them outside the site.
+                  Atque quidem autem qui voluptatem asperiores est et in. Ducimus est asperiores sed. Facere quis ipsam. Doloribus eum officiis laborum id.
                   </p>
                 </CardBody>
                 <CardFooter className={classes.justifyCenter}>
@@ -174,10 +168,7 @@ class TeamSection extends React.Component {
                 </h4>
                 <CardBody>
                   <p className={classes.description}>
-                    You can write here details about one of your team members.
-                    You can give more details about what they do. Feel free to
-                    add some <a href="#pablo">links</a> for people to be able to
-                    follow them outside the site.
+                  Atque quidem autem qui voluptatem asperiores est et in. Ducimus est asperiores sed. Facere quis ipsam. Doloribus eum officiis laborum id.
                   </p>
                 </CardBody>
                 <CardFooter className={classes.justifyCenter}>

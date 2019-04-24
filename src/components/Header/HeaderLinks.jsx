@@ -46,7 +46,6 @@ function HeaderLinks({ ...props }) {
             <div>
               <a
                 href="https://scannarweb.herokuapp.com/login"
-                // target="_blank"
                 className={classes.dropdownLink}
               >
                 Sign In
@@ -55,7 +54,6 @@ function HeaderLinks({ ...props }) {
             <div>
               <a
                 href="https://scannarweb.herokuapp.com/login"
-                // target="_blank"
                 className={classes.dropdownLink}
               >
                 Sign Up
