@@ -88,7 +88,7 @@ class TeamSection extends React.Component {
                 </h4>
                 <CardBody>
                   <p className={classes.description}>
-                  Atque quidem autem qui voluptatem asperiores est et in. Ducimus est asperiores sed. Facere quis ipsam. Doloribus eum officiis laborum id.
+                    Never to see any other way.
                   </p>
                 </CardBody>
                 <CardFooter className={classes.justifyCenter}>
