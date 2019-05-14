@@ -47,8 +47,7 @@ class TeamSection extends React.Component {
                 </h4>
                 <CardBody>
                   <p className={classes.description}>
-                    Likes: Drift Cars,
-                    Dislikes: Stand Up Meetings
+                    Likes: Drift Cars, Dislikes: Stand Up Meetings
                   </p>
                 </CardBody>
                 <CardFooter className={classes.justifyCenter}>
@@ -128,7 +127,9 @@ class TeamSection extends React.Component {
                 </h4>
                 <CardBody>
                   <p className={classes.description}>
-                  Atque quidem autem qui voluptatem asperiores est et in. Ducimus est asperiores sed. Facere quis ipsam. Doloribus eum officiis laborum id.
+                    Atque quidem autem qui voluptatem asperiores est et in.
+                    Ducimus est asperiores sed. Facere quis ipsam. Doloribus eum
+                    officiis laborum id.
                   </p>
                 </CardBody>
                 <CardFooter className={classes.justifyCenter}>
@@ -168,7 +169,8 @@ class TeamSection extends React.Component {
                 </h4>
                 <CardBody>
                   <p className={classes.description}>
-                  Atque quidem autem qui voluptatem asperiores est et in. Ducimus est asperiores sed. Facere quis ipsam. Doloribus eum officiis laborum id.
+                    Ben is a Midwest-based iOS engineer that loves asynchronous
+                    networking, hacking on new frameworks, and coffee.
                   </p>
                 </CardBody>
                 <CardFooter className={classes.justifyCenter}>
