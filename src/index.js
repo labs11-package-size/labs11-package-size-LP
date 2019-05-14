@@ -11,14 +11,13 @@ import LandingPage from "views/LandingPage/LandingPage.jsx";
 import ProfilePage from "views/ProfilePage/ProfilePage.jsx";
 import LoginPage from "views/LoginPage/LoginPage.jsx";
 
-import axios from "axios";
+var hist = createBrowserHistory();
+
 setInterval(() => {
-  axios
-    .get("https://scannarserver.herokuapp.com/")
+  fetch("https://scannarserver.herokuapp.com/")
     .then(res => res)
     .catch(err => err);
 }, 300000);
-var hist = createBrowserHistory();
 
 ReactDOM.render(
   <Router history={hist}>
