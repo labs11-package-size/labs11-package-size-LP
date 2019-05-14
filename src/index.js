@@ -13,11 +13,11 @@ import LoginPage from "views/LoginPage/LoginPage.jsx";
 
 var hist = createBrowserHistory();
 
-setInterval(() => {
-  fetch("https://scannarserver.herokuapp.com/")
-    .then(res => res)
-    .catch(err => err);
-}, 300000);
+// setInterval(() => {
+//   fetch("https://scannarserver.herokuapp.com/")
+//     .then(res => res)
+//     .catch(err => err);
+// }, 300000);
 
 ReactDOM.render(
   <Router history={hist}>
